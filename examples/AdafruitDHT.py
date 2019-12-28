@@ -22,7 +22,10 @@
 
 
 import Adafruit_DHT
-
+import time  
+import sys  
+import httplib, urllib  
+import json
 
 # Parse command line parameters.
 sensor_args = { '11': Adafruit_DHT.DHT11,

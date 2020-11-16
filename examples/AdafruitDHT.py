@@ -26,6 +26,8 @@ import time
 import sys  
 import httplib, urllib  
 import json
+import http.client as http
+
 deviceId = "DhkaAAbg“
 deviceKey = “XdiXYDbzxNA6mRK5“ 
 def post_to_mcs(payload): 
